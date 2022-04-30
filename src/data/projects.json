@@ -149,15 +149,8 @@
   {
     "name": "FailyV: FailyBank",
     "description": "Bank interface for a GTAV Roleplay server using FiveM",
-    "image": "/src/assets/images/testimonials-grid-section.jpg",
+    "image": "/src/assets/images/failybank.png",
     "tags": ["javascript", "html", "css"],
     "tools": ["vite"]
-  },
-  {
-    "name": "FailyV: FailyGames",
-    "description": "Website for a GTAV Roleplay server event",
-    "image": "/src/assets/images/testimonials-grid-section.jpg",
-    "tags": ["javascript", "html", "css"],
-    "tools": ["vite", "vue", "tailwind", "headlessUI"]
   }
 ]
