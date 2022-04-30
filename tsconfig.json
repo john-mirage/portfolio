@@ -24,6 +24,11 @@
       "@components/*": ["src/components/*"],
       "@pages/*": ["src/pages/*"],
       "@data/*": ["src/data/*"],
+      "@constants/*": ["src/constants/*"],
+      "@reducers/*": ["src/reducers/*"],
+      "@selectors/*": ["src/selectors/*"],
+      "@containers/*": ["src/containers/*"],
+      "@actions/*": ["src/actions/*"],
     }
   },
   "include": [

@@ -1,6 +1,13 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { MantineProvider } from '@mantine/core';
+import {configureStore} from "@reduxjs/toolkit";
+import reducer from "@reducers/main";
+import {Provider} from "react-redux";
+
+const store = configureStore({
+  reducer: reducer,
+});
 
 export default function App(props: AppProps) {
     const { Component, pageProps } = props;
@@ -23,7 +30,9 @@ export default function App(props: AppProps) {
                   colorScheme: 'dark',
                 }}
             >
+              <Provider store={store}>
                 <Component {...pageProps} />
+              </Provider>
             </MantineProvider>
         </>
     );

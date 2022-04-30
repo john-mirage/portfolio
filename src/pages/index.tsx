@@ -1,11 +1,11 @@
 import Hero from "@components/hero";
-import Grid from "@components/grid";
+import ProjectList from "@containers/project-list";
 
 function HomePage() {
   return (
     <>
       <Hero />
-      <Grid />
+      <ProjectList />
     </>
   );
 }
