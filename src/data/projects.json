@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Testimonials grid section",
+    "description": "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!",
+    "image": "/src/assets/images/testimonials-grid-section.jpg",
+    "tags": ["html", "css"],
+    "tools": ["vite", "tailwind"]
+  },
+  {
+    "name": "Order summary component",
+    "description": "A perfect project for newbies who are starting to build confidence with layouts!",
+    "image": "/src/assets/images/order-summary-component.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite", "react", "sass"]
+  },
+  {
+    "name": "Advice generator app",
+    "description": "The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice.",
+    "image": "/src/assets/images/advice-generator-app.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite", "tailwind"]
+  },
+  {
+    "name": "Interactive rating component",
+    "description": "This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!",
+    "image": "/src/assets/images/interactive-rating-component.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite", "tailwind"]
+  },
+  {
+    "name": "NFT preview card component",
+    "description": "This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with.",
+    "image": "/src/assets/images/nft-preview-card-component.jpg",
+    "tags": ["html", "css"],
+    "tools": ["vite", "tailwind"]
+  },
+  {
+    "name": "Huddle landing page with a single introductory section",
+    "description": "A perfect challenge for beginners, this project will get you working with a two column layout.",
+    "image": "/src/assets/images/huddle-landing-page-with-a-single-introductory-section.jpg",
+    "tags": ["html", "css"],
+    "tools": ["vite", "tailwind"]
+  },
+  {
+    "name": "Base Apparel coming soon page",
+    "description": "This layout looks simple enough, but there are some interesting details to it that will test your CSS skills. You'll also get to practice basic form validation.",
+    "image": "/src/assets/images/base-apparel-coming-soon-page.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite", "tailwind", "yup"]
+  },
+  {
+    "name": "Fylo data storage component",
+    "description": "This component has some interesting CSS challenges in the design. If you're looking to test your CSS skills, this will be a great project for you!",
+    "image": "/src/assets/images/fylo-data-storage-component.jpg",
+    "tags": ["html", "css"],
+    "tools": ["vite", "tailwind"]
+  },
+  {
+    "name": "Tip calculator app",
+    "description": "This small app is perfect for anyone starting to get to grips with JavaScript. The calculator functionality will be a nice test!",
+    "image": "/src/assets/images/tip-calculator-app.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite", "react", "react-aria", "tailwind"]
+  },
+  {
+    "name": "FAQ accordion card",
+    "description": "In this challenge, you'll be building out an FAQ accordion. This is an extremely common front-end pattern, so it's a great opportunity to get some practice in!",
+    "image": "/src/assets/images/faq-accordion-card.jpg",
+    "tags": ["html", "css"],
+    "tools": ["vite", "tailwind"]
+  },
+  {
+    "name": "Interactive pricing component",
+    "description": "In this project, you'll build out an interactive pricing component complete with custom range input slider and pricing toggle. A perfect way to test your JS skills!",
+    "image": "/src/assets/images/interactive-pricing-component.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite", "react", "react-aria", "styled-components", "tailwind"]
+  },
+  {
+    "name": "Coding bootcamp testimonials slider",
+    "description": "This challenge will be a nice test if you're new to JavaScript. It's also a great opportunity to play around with content animations and transitions.",
+    "image": "/src/assets/images/coding-bootcamp-testimonials-slider.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite", "swiper", "sass"]
+  },
+  {
+    "name": "Launch countdown timer",
+    "description": "This will be a fun one! Your challenge is to build this countdown timer. There are lots of small CSS tests in the design as well. So it should keep you busy!",
+    "image": "/src/assets/images/launch-countdown-timer.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite", "gsap", "sass"]
+  },
+  {
+    "name": "Chat app CSS illustration",
+    "description": "In this challenge, you'll be building out the entire app illustration from scratch. This will seriously test your CSS skills. So give it a go if you feel confident!",
+    "image": "/src/assets/images/chat-app-css-illustration.jpg",
+    "tags": ["html", "css"],
+    "tools": ["vite", "sass"]
+  },
+  {
+    "name": "Social media dashboard with theme switcher",
+    "description": "This challenge will be a perfect chance to practice your Grid skills. The color theme switcher also adds a nice additional test.",
+    "image": "/src/assets/images/social-media-dashboard-with-theme-switcher.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite"]
+  },
+  {
+    "name": "Intro section with dropdown navigation",
+    "description": "This challenge will test your ability to create dropdown navigation menus, a common pattern on larger sites. It will also provide some nice basic layout challenges.",
+    "image": "/src/assets/images/intro-section-with-dropdown-navigation.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite", "lit"]
+  },
+  {
+    "name": "Easybank landing page",
+    "description": "This challenge will provide a nice test for your layout skills. If you're ready to move up from Junior challenges, this one is a great next step.",
+    "image": "/src/assets/images/easybank-landing-page.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite", "vue", "sass"]
+  },
+  {
+    "name": "URL shortening API landing page",
+    "description": "Integrate with the shrtcode URL shortening API and play with browser storage in this landing page challenge.",
+    "image": "/src/assets/images/url-shortening-api-landing-page.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite", "svelte", "tailwind"]
+  },
+  {
+    "name": "Bookmark landing page",
+    "description": "This challenge will really test your layout skills. There are also areas that will require some JavaScript, such as the tabbed features section and the FAQ accordion.",
+    "image": "/src/assets/images/bookmark-landing-page.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite", "svelte", "sass"]
+  },
+  {
+    "name": "REST Countries API with color theme switcher",
+    "description": "If you're wanting to test your JavaScript skills this is the challenge for you. Use whichever JS framework you prefer and pull data from the REST Countries API.",
+    "image": "/src/assets/images/rest-countries-api-with-color-theme-switcher.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite", "react", "mantine", "axios"]
+  },
+  {
+    "name": "Todo app",
+    "description": "The classic todo app with a few twists! This app includes a dark/light theme toggle and drag & drop reordering for anyone wanting an extra test.",
+    "image": "/src/assets/images/todo-app.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite", "react", "redux", "gsap"]
+  },
+  {
+    "name": "FailyV: FailyBank",
+    "description": "Bank interface for a GTAV Roleplay server using FiveM",
+    "image": "/src/assets/images/testimonials-grid-section.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite"]
+  },
+  {
+    "name": "FailyV: FailyGames",
+    "description": "Website for a GTAV Roleplay server event",
+    "image": "/src/assets/images/testimonials-grid-section.jpg",
+    "tags": ["javascript", "html", "css"],
+    "tools": ["vite", "vue", "tailwind", "headlessUI"]
+  }
+]
