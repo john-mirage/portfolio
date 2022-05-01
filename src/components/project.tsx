@@ -1,7 +1,7 @@
 import {Badge, Card, createStyles, Group, Text} from "@mantine/core";
 import Link from "next/link";
 
-const useStyles = createStyles((theme) => ({
+const useStyles = createStyles((theme, _params, getRef) => ({
   imageContainer: {
     position: "relative",
     width: "100%",
@@ -17,9 +17,15 @@ const useStyles = createStyles((theme) => ({
     objectFit: "cover",
   },
   link: {
+    ref: getRef("link"),
     textDecoration: "none",
     color: "inherit",
-  }
+  },
+  title: {
+    [`.${getRef("link")}:hover &`]: {
+      color: theme.colors.blue[4],
+    },
+  },
 }));
 
 const badgeColor = {
@@ -54,7 +60,9 @@ function Project({ project }) {
         </div>
       </Card.Section>
       <Link href={project.url}>
-        <a target="_blank" className={classes.link}><Text size="lg" weight={600} my={16}>{project.name}</Text></a>
+        <a target="_blank" className={classes.link}>
+          <Text className={classes.title} size="lg" weight={600} my={16}>{project.name}</Text>
+        </a>
       </Link>
       <Text size="sm" weight={400} mb={16} color="dimmed">{project.description}</Text>
       <Group spacing="xs">
