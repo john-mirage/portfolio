@@ -9,7 +9,7 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  actions: bindActionCreators(ProjectActions as ActionCreator<unknown>, dispatch)
+  actions: bindActionCreators(ProjectActions, dispatch)
 });
 
 const VisibleProjectList = connect(
