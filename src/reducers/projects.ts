@@ -38,7 +38,7 @@ const initialState: Project[] = [
     image: testimonialsGridSection.src,
     url: "https://john-mirage.github.io/testimonials-grid-section/",
     tags: ["html", "css"],
-    tools: ["vite", "tailwind"]
+    tools: ["vite"]
   },
   {
     name: "Order summary component",
@@ -156,7 +156,7 @@ const initialState: Project[] = [
     name: "Intro section with dropdown navigation",
     description: "This challenge will test your ability to create dropdown navigation menus, a common pattern on larger sites. It will also provide some nice basic layout challenges.",
     image: introSectionWithDropdownNavigation.src,
-    url: "https://john-mirage.github.io/intro-section-with-dropdown-navigation/",
+    url: "https://john-mirage.github.io/intro-section-lit/",
     tags: ["javascript", "html", "css"],
     tools: ["vite", "lit"]
   },
