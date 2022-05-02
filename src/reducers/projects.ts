@@ -21,6 +21,7 @@ import restCountriesApiWithColorThemeSwitcher from "@assets/images/rest-countrie
 import todoApp from "@assets/images/todo-app.jpg";
 import failybank from "@assets/images/failybank.png";
 import eCommerceProductPage from "@assets/images/e-commerce-product-page.jpg";
+import timeTrackingDashboard from "@assets/images/time-tracking-dashboard.jpg";
 
 interface Project {
   name: string;
@@ -207,6 +208,14 @@ const initialState: Project[] = [
     url: "https://john-mirage.github.io/frontend-mentor/solution/ecommerce-product-page",
     tags: ["javascript", "html", "css"],
     tools: ["vite", "react", "styled-components", "framer-motion"]
+  },
+  {
+    name: "Time tracking dashboard",
+    description: "A perfect opportunity to practice your CSS Grid skills. For anyone wanting to take it up a notch, we provide a JSON data file to practice working with data.",
+    image: timeTrackingDashboard.src,
+    url: "https://john-mirage.github.io/time-tracking-dashboard/",
+    tags: ["javascript", "html", "css"],
+    tools: ["vite"]
   },
   {
     name: "Bank application for GTAV roleplay server",
