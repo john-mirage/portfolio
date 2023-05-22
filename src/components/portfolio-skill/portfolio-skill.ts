@@ -14,10 +14,10 @@ export class PorfolioSkill extends LitElement {
 
   render() {
     return html`
-      <h3 class="text">
+      <h3 class="text text--white">
         <portfolio-text variant="title-medium">${this.topic}</portfolio-text>
       </h3>
-      <p class="text">
+      <p class="text text--grey">
         <portfolio-text variant="body-large">${this.skill}</portfolio-text>
       </p>
     `;
