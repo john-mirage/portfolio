@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
 import "./portfolio-project";
-import image from "../../images/age-calculator-app.jpg";
+import image from "../../images/thumbnail-project-1-small.webp";
 import "../portfolio-button/portfolio-button";
 import "../portfolio-text/portfolio-text";
 

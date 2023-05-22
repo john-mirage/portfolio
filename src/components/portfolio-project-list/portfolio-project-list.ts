@@ -1,7 +1,12 @@
 import { LitElement, html } from "lit";
 import { customElement } from "lit/decorators.js";
 import styles from "./portfolio-project-list.style";
-import image from "../../images/age-calculator-app.jpg";
+import image1 from "../../images/thumbnail-project-1-small.webp";
+import image2 from "../../images/thumbnail-project-2-small.webp";
+import image3 from "../../images/thumbnail-project-3-small.webp";
+import image4 from "../../images/thumbnail-project-4-small.webp";
+import image5 from "../../images/thumbnail-project-5-small.webp";
+import image6 from "../../images/thumbnail-project-6-small.webp";
 
 @customElement("portfolio-project-list")
 export class PorfolioProjectList extends LitElement {
@@ -23,7 +28,7 @@ export class PorfolioProjectList extends LitElement {
             <portfolio-project
               name="age calculator app"
               tags="html, css"
-              imageUrl="${image}"
+              imageUrl="${image1}"
               projectUrl="https://www.frontendmentor.io/home"
               codeUrl="https://www.frontendmentor.io/home"
             ></portfolio-project>
@@ -32,7 +37,7 @@ export class PorfolioProjectList extends LitElement {
             <portfolio-project
               name="age calculator app"
               tags="html, css"
-              imageUrl="${image}"
+              imageUrl="${image2}"
               projectUrl="https://www.frontendmentor.io/home"
               codeUrl="https://www.frontendmentor.io/home"
             ></portfolio-project>
@@ -41,7 +46,7 @@ export class PorfolioProjectList extends LitElement {
             <portfolio-project
               name="age calculator app"
               tags="html, css"
-              imageUrl="${image}"
+              imageUrl="${image3}"
               projectUrl="https://www.frontendmentor.io/home"
               codeUrl="https://www.frontendmentor.io/home"
             ></portfolio-project>
@@ -50,7 +55,7 @@ export class PorfolioProjectList extends LitElement {
             <portfolio-project
               name="age calculator app"
               tags="html, css"
-              imageUrl="${image}"
+              imageUrl="${image4}"
               projectUrl="https://www.frontendmentor.io/home"
               codeUrl="https://www.frontendmentor.io/home"
             ></portfolio-project>
@@ -59,7 +64,7 @@ export class PorfolioProjectList extends LitElement {
             <portfolio-project
               name="age calculator app"
               tags="html, css"
-              imageUrl="${image}"
+              imageUrl="${image5}"
               projectUrl="https://www.frontendmentor.io/home"
               codeUrl="https://www.frontendmentor.io/home"
             ></portfolio-project>
@@ -68,7 +73,7 @@ export class PorfolioProjectList extends LitElement {
             <portfolio-project
               name="age calculator app"
               tags="html, css"
-              imageUrl="${image}"
+              imageUrl="${image6}"
               projectUrl="https://www.frontendmentor.io/home"
               codeUrl="https://www.frontendmentor.io/home"
             ></portfolio-project>

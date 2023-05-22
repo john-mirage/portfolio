@@ -43,6 +43,22 @@ const styles = css`
     letter-spacing: 2.29px;
     text-transform: uppercase;
   }
+
+  @media screen and (min-width: 768px) {
+    :host([variant="title-large"]) {
+      font-size: 72px;
+      font-weight: 700;
+      line-height: 72px;
+      letter-spacing: -2.05px;
+    }
+
+    :host([variant="body-large"]) {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0;
+    }
+  }
 `;
 
 export default styles;
