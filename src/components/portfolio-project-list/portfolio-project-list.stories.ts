@@ -1,19 +1,19 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
-import "./portfolio-header";
-import "../portfolio-icon-link/portfolio-icon-link";
-import "../portfolio-icon/portfolio-icon";
+import "./portfolio-project-list";
+import "../portfolio-button/portfolio-button";
 import "../portfolio-text/portfolio-text";
+import "../portfolio-project/portfolio-project";
 import "../portfolio-container/portfolio-container";
 
 const meta: Meta = {
-  title: "Header",
-  component: "portfolio-header",
+  title: "ProjectList",
+  component: "portfolio-project-list",
 };
 export default meta;
 
 type Story = StoryObj;
 
 export const Primary: Story = {
-  render: () => html`<portfolio-header></portfolio-header>`,
+  render: () => html`<portfolio-project-list></portfolio-project-list>`,
 };

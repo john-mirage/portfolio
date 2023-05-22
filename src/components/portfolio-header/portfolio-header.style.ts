@@ -2,10 +2,13 @@ import { css } from "lit";
 
 const styles = css`
   :host {
+    padding-top: 20px;
+  }
+
+  portfolio-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
   }
 
   h1 {
@@ -25,7 +28,7 @@ const styles = css`
   }
 
   @media screen and (min-width: 768px) {
-    :host {
+    portfolio-container {
       flex-direction: row;
       justify-content: space-between;
     }

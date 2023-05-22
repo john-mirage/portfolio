@@ -6,12 +6,12 @@ const styles = css`
   }
 
   ul {
-    display: grid;
-    gap: 24px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin: 0;
+    padding: 40px 0 40px 0;
     border-top: 1px solid var(--color-white);
     border-bottom: 1px solid var(--color-white);
+    display: grid;
+    gap: 24px;
     list-style: none;
   }
 

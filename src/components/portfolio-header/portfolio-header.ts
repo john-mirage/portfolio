@@ -8,35 +8,37 @@ export class PorfolioHeader extends LitElement {
 
   render() {
     return html`
-      <h1>
-        <portfolio-text variant="title-medium">adamkeyes</portfolio-text>
-      </h1>
-      <ul>
-        <li>
-          <portfolio-icon-link
-            icon="github"
-            url="https://github.com/"
-          ></portfolio-icon-link>
-        </li>
-        <li>
-          <portfolio-icon-link
-            icon="frontend-mentor"
-            url="https://github.com/"
-          ></portfolio-icon-link>
-        </li>
-        <li>
-          <portfolio-icon-link
-            icon="linkedin"
-            url="https://github.com/"
-          ></portfolio-icon-link>
-        </li>
-        <li>
-          <portfolio-icon-link
-            icon="twitter"
-            url="https://github.com/"
-          ></portfolio-icon-link>
-        </li>
-      </ul>
+      <portfolio-container>
+        <h1>
+          <portfolio-text variant="title-medium">adamkeyes</portfolio-text>
+        </h1>
+        <ul>
+          <li>
+            <portfolio-icon-link
+              icon="github"
+              url="https://github.com/"
+            ></portfolio-icon-link>
+          </li>
+          <li>
+            <portfolio-icon-link
+              icon="frontend-mentor"
+              url="https://github.com/"
+            ></portfolio-icon-link>
+          </li>
+          <li>
+            <portfolio-icon-link
+              icon="linkedin"
+              url="https://github.com/"
+            ></portfolio-icon-link>
+          </li>
+          <li>
+            <portfolio-icon-link
+              icon="twitter"
+              url="https://github.com/"
+            ></portfolio-icon-link>
+          </li>
+        </ul>
+      </portfolio-container>
     `;
   }
 }
