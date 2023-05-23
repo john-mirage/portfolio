@@ -5,7 +5,7 @@ const styles = css`
     display: block;
   }
 
-  picture {
+  .image-section {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -13,34 +13,39 @@ const styles = css`
     max-width: 174px;
   }
 
-  img {
+  .image {
     width: 100%;
     max-width: 100%;
   }
 
-  div {
+  .text-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
-  h2 {
+  .title,
+  .subtitle {
+    max-width: 400px;
+  }
+
+  .title {
     color: var(--color-white);
   }
 
-  p {
+  .subtitle {
     color: var(--color-grey);
   }
 
   @media screen and (min-width: 768px) {
-    portfolio-container {
+    .container {
       display: flex;
       flex-direction: row;
       align-items: stretch;
     }
 
-    picture {
+    .image-section {
       position: relative;
       z-index: 10;
       order: 2;
@@ -48,7 +53,7 @@ const styles = css`
       max-width: 322px;
     }
 
-    div {
+    .text-section {
       position: relative;
       z-index: 20;
       order: 1;
@@ -58,13 +63,15 @@ const styles = css`
       align-items: flex-start;
     }
 
-    h2 {
+    .title {
       margin-right: -32px;
       margin-bottom: 60px;
+      max-width: none;
     }
 
-    p {
+    .subtitle {
       margin-bottom: 32px;
+      max-width: none;
     }
   }
 `;

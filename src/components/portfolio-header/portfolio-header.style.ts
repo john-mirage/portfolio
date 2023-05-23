@@ -2,22 +2,23 @@ import { css } from "lit";
 
 const styles = css`
   :host {
+    display: block;
     padding-top: 20px;
   }
 
-  portfolio-container {
+  .container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  h1 {
+  .title {
     margin-top: 0;
     margin-bottom: 20px;
     color: var(--color-white);
   }
 
-  ul {
+  .list {
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -28,9 +29,23 @@ const styles = css`
   }
 
   @media screen and (min-width: 768px) {
-    portfolio-container {
+    :host {
+      padding-top: 30px;
+    }
+
+    .container {
       flex-direction: row;
       justify-content: space-between;
+    }
+
+    .title {
+      margin-bottom: 0;
+    }
+  }
+
+  @media screen and (min-width: 1110px) {
+    :host {
+      padding-top: 40px;
     }
   }
 `;

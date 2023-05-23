@@ -13,7 +13,10 @@ export class PorfolioProject extends LitElement {
   tags: string;
 
   @property({ type: String, reflect: true })
-  imageUrl: string;
+  smallImageUrl: string;
+
+  @property({ type: String, reflect: true })
+  largeImageUrl: string;
 
   @property({ type: String, reflect: true })
   projectUrl: string;
@@ -23,11 +26,14 @@ export class PorfolioProject extends LitElement {
 
   render() {
     return html`
-      <img src="${this.imageUrl}" alt="${this.name}" />
-      <h3>
+      <picture class="image-section">
+        <source srcset="${this.largeImageUrl}" media="(min-width: 768px)" />
+        <img class="image" src="${this.largeImageUrl}" alt="${this.name}" />
+      </picture>
+      <h3 class="name">
         <portfolio-text variant="title-small">${this.name}</portfolio-text>
       </h3>
-      <ul>
+      <ul class="tag-list">
         ${this.tags &&
         this.tags.split(", ").map(
           (tag) =>
@@ -38,7 +44,7 @@ export class PorfolioProject extends LitElement {
             `
         )}
       </ul>
-      <div>
+      <div class="button-section">
         <portfolio-button url="${this.projectUrl}">
           <portfolio-text variant="label-large">view project</portfolio-text>
         </portfolio-button>

@@ -10,24 +10,24 @@ export class PorfolioHero extends LitElement {
 
   render() {
     return html`
-      <portfolio-container>
-        <picture>
+      <portfolio-container class="container">
+        <picture class="image-section">
           <source srcset="${tabledImage}" media="(min-width: 768px)" />
-          <img src="${mobileImage}" alt="" />
+          <img class="image" src="${mobileImage}" alt="" />
         </picture>
-        <div>
-          <h2>
+        <div class="text-section">
+          <h2 class="title">
             <portfolio-text variant="title-large"
               >Nice to meet you! I'm Adam Keyes.</portfolio-text
             >
           </h2>
-          <p>
+          <p class="subtitle">
             <portfolio-text variant="body-large"
               >Based in the UK, I’m a front-end developer passionate about
               building accessible web apps that users love.</portfolio-text
             >
           </p>
-          <portfolio-button>
+          <portfolio-button class="button">
             <portfolio-text variant="label-large">contact me</portfolio-text>
           </portfolio-button>
         </div>

@@ -8,11 +8,11 @@ export class PorfolioHeader extends LitElement {
 
   render() {
     return html`
-      <portfolio-container>
-        <h1>
+      <portfolio-container class="container">
+        <h1 class="title">
           <portfolio-text variant="title-medium">adamkeyes</portfolio-text>
         </h1>
-        <ul>
+        <ul class="list">
           <li>
             <portfolio-icon-link
               icon="github"

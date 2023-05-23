@@ -26,3 +26,18 @@
   --color-grey: hsl(0, 0%, 85%);
   --color-white: hsl(0, 0%, 100%);
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}

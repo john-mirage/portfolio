@@ -1,29 +1,38 @@
 import { css } from "lit";
 
 const styles = css`
-  div {
+  .row {
     margin-bottom: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
   }
 
-  h2 {
+  .title {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 16px;
     color: var(--color-white);
   }
 
-  ul {
+  .list {
     margin: 0;
     display: grid;
     gap: 40px;
     padding: 0;
   }
 
+  @media screen and (min-width: 375px) {
+    .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .title {
+      margin-bottom: 0;
+    }
+  }
+
   @media screen and (min-width: 768px) {
-    ul {
+    .list {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
