@@ -28,7 +28,9 @@ export class PorfolioHero extends LitElement {
             >
           </p>
           <portfolio-button class="button">
-            <portfolio-text variant="label-large">contact me</portfolio-text>
+            <a href="#">
+              <portfolio-text variant="label-large">contact me</portfolio-text>
+            </a>
           </portfolio-button>
         </div>
       </portfolio-container>

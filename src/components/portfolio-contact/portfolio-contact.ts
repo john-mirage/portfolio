@@ -20,12 +20,14 @@ export class PorfolioContact extends LitElement {
           </portfolio-text>
         </p>
       </div>
-      <form class="form">
-        <input type="text" />
-        <input type="text" />
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <portfolio-button isLink="false">
-          <portfolio-text variant="label-large">contact me</portfolio-text>
+      <form>
+        <input class="input" type="text" />
+        <input class="input" type="text" />
+        <textarea class="input" cols="30" rows="10"></textarea>
+        <portfolio-button>
+          <button type="submit">
+            <portfolio-text variant="label-large">contact me</portfolio-text>
+          </button>
         </portfolio-button>
       </form>
     `;

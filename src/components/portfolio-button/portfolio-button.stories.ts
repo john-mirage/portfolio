@@ -11,10 +11,22 @@ export default meta;
 
 type Story = StoryObj;
 
-export const Primary: Story = {
+export const AsButton: Story = {
   render: () => html`
     <portfolio-button>
-      <portfolio-text variant="label-large">contact me</portfolio-text>
+      <button>
+        <portfolio-text variant="label-large">contact me</portfolio-text>
+      </button>
+    </portfolio-button>
+  `,
+};
+
+export const AsLink: Story = {
+  render: () => html`
+    <portfolio-button>
+      <a href="#">
+        <portfolio-text variant="label-large">contact me</portfolio-text>
+      </a>
     </portfolio-button>
   `,
 };

@@ -26,7 +26,9 @@ export class PorfolioProjectList extends LitElement {
             <portfolio-text variant="title-large">Projects</portfolio-text>
           </h2>
           <portfolio-button>
-            <portfolio-text variant="label-large">contact me</portfolio-text>
+            <a href="#">
+              <portfolio-text variant="label-large">contact me</portfolio-text>
+            </a>
           </portfolio-button>
         </div>
         <ul class="list">

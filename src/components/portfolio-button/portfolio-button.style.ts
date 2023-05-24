@@ -2,6 +2,7 @@ import { css } from "lit";
 
 const styles = css`
   :host {
+    position: relative;
     display: inline-block;
     color: var(--color-white);
     transition: color 150ms;
@@ -11,21 +12,21 @@ const styles = css`
     color: var(--color-green);
   }
 
-  a {
+  ::slotted(a) {
     display: block;
-    position: relative;
     padding-bottom: 10px;
     text-decoration: none;
     color: inherit;
   }
 
-  button {
+  ::slotted(button) {
     margin: 0;
-    position: relative;
+    display: block;
     padding: 0 0 10px 0;
     background-color: transparent;
     border: none;
     cursor: pointer;
+    color: inherit;
   }
 
   span {
