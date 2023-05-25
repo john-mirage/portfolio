@@ -2,7 +2,12 @@ import { css } from "lit";
 
 const styles = css`
   :host {
-    display: block;
+    --color-black: hsl(0, 0%, 8%);
+    --color-green: hsl(153, 71%, 59%);
+    --color-dark-grey: hsl(0, 0%, 14%);
+    --color-grey: hsl(0, 0%, 85%);
+    --color-white: hsl(0, 0%, 100%);
+
     background-color: var(--color-black);
   }
 
@@ -22,6 +27,20 @@ const styles = css`
 
   .skill-list {
     margin-bottom: 80px;
+  }
+
+  .project-list {
+    margin-bottom: 80px;
+  }
+
+  .contact {
+    margin-bottom: 20px;
+  }
+
+  .footer-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--color-dark-grey);
   }
 `;
 

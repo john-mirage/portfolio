@@ -1,10 +1,11 @@
 import { LitElement, html } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import styles from "./portfolio-project.style";
+import globalStyles from "../../styles/globals";
 
 @customElement("portfolio-project")
 export class PorfolioProject extends LitElement {
-  static styles = styles;
+  static styles = [globalStyles, styles];
 
   @property({ type: String, reflect: true })
   name: string;

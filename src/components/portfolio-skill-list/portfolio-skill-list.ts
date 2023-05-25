@@ -1,10 +1,11 @@
 import { LitElement, html } from "lit";
 import { customElement } from "lit/decorators.js";
 import styles from "./portfolio-skill-list.style";
+import globalStyles from "../../styles/globals";
 
 @customElement("portfolio-skill-list")
 export class PorfolioSkillList extends LitElement {
-  static styles = styles;
+  static styles = [globalStyles, styles];
 
   render() {
     return html`

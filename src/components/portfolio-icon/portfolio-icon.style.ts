@@ -1,10 +1,6 @@
 import { css } from "lit";
 
 const styles = css`
-  :host {
-    display: block;
-  }
-
   svg {
     width: 1.25rem; /* 20px */
     height: 1.25rem; /* 20px */

@@ -2,10 +2,23 @@ import { css } from "lit";
 
 const styles = css`
   :host {
-    display: block;
+    background-image: url("pattern-rings.svg");
+    background-position: top 150px left -350px;
+    background-repeat: no-repeat;
+    overflow: hidden;
   }
 
   .image-section {
+    position: relative;
+  }
+
+  .circle {
+    position: absolute;
+    right: -80px;
+    bottom: 0;
+  }
+
+  .picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -45,7 +58,7 @@ const styles = css`
       align-items: stretch;
     }
 
-    .image-section {
+    .picture {
       position: relative;
       z-index: 10;
       order: 2;

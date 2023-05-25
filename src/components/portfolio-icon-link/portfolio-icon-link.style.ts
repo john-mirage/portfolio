@@ -1,10 +1,6 @@
 import { css } from "lit";
 
 const styles = css`
-  :host {
-    display: inline-block;
-  }
-
   a {
     text-decoration: none;
     color: var(--color-white);

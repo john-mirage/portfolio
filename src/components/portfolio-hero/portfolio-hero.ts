@@ -3,18 +3,22 @@ import { customElement } from "lit/decorators.js";
 import styles from "./portfolio-hero.style";
 import mobileImage from "../../images/image-profile-mobile.webp";
 import tabledImage from "../../images/image-profile-tablet.webp";
+import globalStyles from "../../styles/globals";
 
 @customElement("portfolio-hero")
 export class PorfolioHero extends LitElement {
-  static styles = styles;
+  static styles = [globalStyles, styles];
 
   render() {
     return html`
-      <portfolio-container class="container">
-        <picture class="image-section">
+      <div class="image-section">
+        <picture class="picture">
           <source srcset="${tabledImage}" media="(min-width: 768px)" />
           <img class="image" src="${mobileImage}" alt="" />
         </picture>
+        <img class="circle" src="pattern-circle.svg" aria-hidden="true" />
+      </div>
+      <portfolio-container>
         <div class="text-section">
           <h2 class="title">
             <portfolio-text variant="title-large"

@@ -8,10 +8,11 @@ import {
   defaultIcon,
 } from "./icons";
 import styles from "./portfolio-icon.style";
+import globalStyles from "../../styles/globals";
 
 @customElement("portfolio-icon")
 export class PorfolioIcon extends LitElement {
-  static styles = styles;
+  static styles = [globalStyles, styles];
 
   @property({ type: String, reflect: true })
   icon: string;

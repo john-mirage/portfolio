@@ -14,9 +14,5 @@ export default meta;
 type Story = StoryObj;
 
 export const Primary: Story = {
-  render: () => html`
-    <portfolio-container>
-      <portfolio-contact></portfolio-contact>
-    </portfolio-container>
-  `,
+  render: () => html` <portfolio-contact></portfolio-contact> `,
 };

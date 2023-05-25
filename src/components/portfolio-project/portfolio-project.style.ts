@@ -3,7 +3,6 @@ import { css } from "lit";
 const styles = css`
   :host {
     position: relative;
-    display: block;
   }
 
   .image-section {

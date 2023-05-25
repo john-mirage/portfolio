@@ -1,10 +1,11 @@
 import { LitElement, html } from "lit";
 import { customElement } from "lit/decorators.js";
-import styles from "./portfolio-header.style";
+import styles from "./portfolio-banner.style";
+import globalStyles from "../../styles/globals";
 
-@customElement("portfolio-header")
-export class PorfolioHeader extends LitElement {
-  static styles = styles;
+@customElement("portfolio-banner")
+export class PorfolioBanner extends LitElement {
+  static styles = [globalStyles, styles];
 
   render() {
     return html`
@@ -45,6 +46,6 @@ export class PorfolioHeader extends LitElement {
 
 declare global {
   interface HTMLElementTagNameMap {
-    "portfolio-header": PorfolioHeader;
+    "portfolio-banner": PorfolioBanner;
   }
 }

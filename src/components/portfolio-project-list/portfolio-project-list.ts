@@ -13,10 +13,11 @@ import desktopImage3 from "../../images/thumbnail-project-3-large.webp";
 import desktopImage4 from "../../images/thumbnail-project-4-large.webp";
 import desktopImage5 from "../../images/thumbnail-project-5-large.webp";
 import desktopImage6 from "../../images/thumbnail-project-6-large.webp";
+import globalStyles from "../../styles/globals";
 
 @customElement("portfolio-project-list")
 export class PorfolioProjectList extends LitElement {
-  static styles = styles;
+  static styles = [globalStyles, styles];
 
   render() {
     return html`

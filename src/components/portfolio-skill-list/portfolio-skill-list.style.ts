@@ -1,10 +1,6 @@
 import { css } from "lit";
 
 const styles = css`
-  :host {
-    display: block;
-  }
-
   ul {
     margin: 0;
     padding: 40px 0 40px 0;

@@ -1,10 +1,11 @@
 import { LitElement, html } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import styles from "./portfolio-icon-link.style";
+import globalStyles from "../../styles/globals";
 
 @customElement("portfolio-icon-link")
 export class PorfolioIconLink extends LitElement {
-  static styles = styles;
+  static styles = [globalStyles, styles];
 
   @property({ type: String, reflect: true })
   icon: string;
