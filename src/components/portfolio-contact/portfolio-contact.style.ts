@@ -57,6 +57,11 @@ const styles = css`
     color: var(--color-white);
   }
 
+  .input:focus-visible {
+    outline: none;
+    border-color: var(--color-green);
+  }
+
   .button {
     margin-left: auto;
   }
