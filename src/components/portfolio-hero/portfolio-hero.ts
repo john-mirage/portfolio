@@ -19,7 +19,11 @@ export class PorfolioHero extends LitElement {
         <div class="text-section">
           <h2 class="title">
             <portfolio-text variant="title-large"
-              >Nice to meet you! I'm Adam Keyes.</portfolio-text
+              >Nice to meet you! I'm
+              <span class="name"
+                ><span class="name__value">Adam Keyes</span
+                ><span class="name__line"></span></span
+              >.</portfolio-text
             >
           </h2>
           <p class="subtitle">

@@ -23,17 +23,32 @@ const styles = css`
     text-align: center;
   }
 
-  .title,
-  .subtitle {
-    max-width: 400px;
-  }
-
   .title {
     color: var(--color-white);
   }
 
   .subtitle {
     color: var(--color-grey);
+  }
+
+  .name {
+    position: relative;
+  }
+
+  .name {
+    position: relative;
+    z-index: 20;
+    display: inline-block;
+  }
+
+  .name__line {
+    position: absolute;
+    z-index: 10;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--color-green);
   }
 
   .pattern {
@@ -86,6 +101,11 @@ const styles = css`
     .subtitle {
       margin-bottom: 32px;
       max-width: none;
+    }
+
+    .name__line {
+      bottom: -6px;
+      height: 6px;
     }
 
     .pattern--circle {
