@@ -67,14 +67,12 @@ const styles = css`
       align-items: center;
       gap: 48px;
       background-color: hsla(0, 0%, 0%, 75%);
-      visibility: hidden;
       opacity: 0;
-      transition-property: visibility, opacity;
+      transition-property: opacity;
       transition-duration: 150ms;
     }
 
     :host(:hover) .button-section {
-      visibility: visible;
       opacity: 1;
     }
   }
