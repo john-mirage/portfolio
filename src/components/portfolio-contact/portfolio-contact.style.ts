@@ -46,7 +46,7 @@ const styles = css`
   .input {
     display: block;
     width: 100%;
-    padding: 0 24px 16px 24px;
+    padding: 8px 24px 16px 24px;
     background-color: transparent;
     border-top: none;
     border-left: none;
