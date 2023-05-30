@@ -55,7 +55,7 @@ export class PorfolioProjectList extends LitElement {
         <li>
           <portfolio-project
             name="age calculator app"
-            tags="html, css"
+            tags="html, css, javascript"
             smallImageUrl="${mobileImage3}"
             largeImageUrl="${desktopImage3}"
             projectUrl="https://www.frontendmentor.io/home"
@@ -65,7 +65,7 @@ export class PorfolioProjectList extends LitElement {
         <li>
           <portfolio-project
             name="age calculator app"
-            tags="html, css"
+            tags="html, css, javascript"
             smallImageUrl="${mobileImage4}"
             largeImageUrl="${desktopImage4}"
             projectUrl="https://www.frontendmentor.io/home"
@@ -75,7 +75,7 @@ export class PorfolioProjectList extends LitElement {
         <li>
           <portfolio-project
             name="age calculator app"
-            tags="html, css"
+            tags="html, css, javascript"
             smallImageUrl="${mobileImage5}"
             largeImageUrl="${desktopImage5}"
             projectUrl="https://www.frontendmentor.io/home"
@@ -85,7 +85,7 @@ export class PorfolioProjectList extends LitElement {
         <li>
           <portfolio-project
             name="age calculator app"
-            tags="html, css"
+            tags="html, css, javascript"
             smallImageUrl="${mobileImage6}"
             largeImageUrl="${desktopImage6}"
             projectUrl="https://www.frontendmentor.io/home"
