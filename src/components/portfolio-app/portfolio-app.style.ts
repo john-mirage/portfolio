@@ -44,6 +44,12 @@ const styles = css`
     padding-bottom: 60px;
     background-color: var(--color-dark-grey);
   }
+
+  @media screen and (min-width: 1174px) {
+    .header {
+      padding-right: 48px;
+    }
+  }
 `;
 
 export default styles;

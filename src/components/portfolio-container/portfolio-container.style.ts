@@ -20,9 +20,9 @@ const styles = css`
     }
   }
 
-  @media screen and (min-width: 1110px) {
+  @media screen and (min-width: 1174px) {
     div {
-      max-width: 1110px;
+      max-width: 1174px;
     }
   }
 `;

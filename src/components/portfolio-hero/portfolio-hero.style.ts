@@ -96,6 +96,41 @@ const styles = css`
       top: 86px;
     }
   }
+
+  @media screen and (min-width: 1174px) {
+    :host {
+      align-items: center;
+    }
+
+    .image-section {
+      margin-right: 0;
+      flex: 0 0 445px;
+      width: 445px;
+      height: 720px;
+    }
+
+    .text-section {
+      margin-right: -41px;
+    }
+
+    .subtitle {
+      max-width: 445px;
+    }
+
+    .image {
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .pattern--circle {
+      top: 521px;
+      right: 381px;
+    }
+
+    .pattern--rings {
+      top: 133px;
+    }
+  }
 `;
 
 export default styles;

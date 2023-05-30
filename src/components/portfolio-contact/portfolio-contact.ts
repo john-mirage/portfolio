@@ -21,14 +21,14 @@ export class PorfolioContact extends LitElement {
           </portfolio-text>
         </p>
       </div>
-      <form class="form">
+      <form class="form-section">
         <portfolio-text class="inputs" variant="body-large">
           <input class="input" type="text" placeholder="name" />
           <input class="input" type="email" placeholder="email" />
           <textarea
             class="input"
             cols="30"
-            rows="10"
+            rows="5"
             placeholder="message"
           ></textarea>
         </portfolio-text>
@@ -37,6 +37,12 @@ export class PorfolioContact extends LitElement {
             <portfolio-text variant="label-large">send message</portfolio-text>
           </button>
         </portfolio-button>
+        <img
+          class="rings"
+          src="pattern-rings.svg"
+          draggable="false"
+          aria-hidden="true"
+        />
       </form>
     `;
   }

@@ -2,41 +2,38 @@ import { css } from "lit";
 
 const styles = css`
   :host {
-    background-image: url("pattern-rings.svg");
-    background-repeat: no-repeat;
-    background-position: bottom 87px left -350px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 87px;
     border-bottom: 1px solid var(--color-white);
   }
 
   .text-section {
     margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
-  }
-
-  .title,
-  .subtitle {
-    max-width: 400px;
+    max-width: 445px;
   }
 
   .title {
+    margin-top: 0;
+    margin-bottom: 20px;
     color: var(--color-white);
   }
 
   .subtitle {
+    margin-top: 0;
+    margin-bottom: 0;
     color: var(--color-grey);
   }
 
-  .form {
-    margin-left: auto;
-    margin-right: auto;
+  .form-section {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    width: 100%;
     max-width: 445px;
-    padding-bottom: 87px;
   }
 
   .inputs {
@@ -62,6 +59,37 @@ const styles = css`
 
   .button {
     margin-left: auto;
+  }
+
+  .rings {
+    position: absolute;
+    z-index: auto;
+    bottom: 97px;
+    left: -364px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .rings {
+      bottom: 27px;
+      left: -380px;
+    }
+  }
+
+  @media screen and (min-width: 1174px) {
+    :host {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .text-section {
+      text-align: left;
+    }
+
+    .rings {
+      bottom: 47px;
+      left: -380px;
+    }
   }
 `;
 
