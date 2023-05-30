@@ -33,7 +33,7 @@ export class PorfolioHero extends LitElement {
             >
           </p>
           <portfolio-button class="button">
-            <a href="#">
+            <a href="#contact">
               <portfolio-text variant="label-large">contact me</portfolio-text>
             </a>
           </portfolio-button>

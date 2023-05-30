@@ -15,6 +15,7 @@ export class PorfolioApp extends LitElement {
         <portfolio-skill-list class="skill-list"></portfolio-skill-list>
         <portfolio-project-list class="project-list"></portfolio-project-list>
       </portfolio-container>
+      <slot></slot>
       <portfolio-container class="footer-section">
         <portfolio-contact class="contact"></portfolio-contact>
         <portfolio-banner class="footer"></portfolio-banner>

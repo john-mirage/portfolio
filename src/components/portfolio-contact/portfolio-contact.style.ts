@@ -76,7 +76,7 @@ const styles = css`
   @media screen and (min-width: 768px) {
     .rings {
       bottom: 27px;
-      left: -380px;
+      left: -396px;
     }
   }
 
