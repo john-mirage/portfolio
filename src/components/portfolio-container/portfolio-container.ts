@@ -8,7 +8,11 @@ export class PorfolioContainer extends LitElement {
   static styles = [globalStyles, styles];
 
   render() {
-    return html`<slot></slot>`;
+    return html`
+      <div>
+        <slot></slot>
+      </div>
+    `;
   }
 }
 

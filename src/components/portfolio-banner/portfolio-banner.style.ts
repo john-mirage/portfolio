@@ -2,13 +2,10 @@ import { css } from "lit";
 
 const styles = css`
   :host {
-    padding-top: 20px;
-  }
-
-  .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 20px;
   }
 
   .title {
@@ -29,12 +26,9 @@ const styles = css`
 
   @media screen and (min-width: 768px) {
     :host {
-      padding-top: 30px;
-    }
-
-    .container {
       flex-direction: row;
       justify-content: space-between;
+      padding-top: 30px;
     }
 
     .title {

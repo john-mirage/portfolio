@@ -11,14 +11,11 @@ export class PorfolioHero extends LitElement {
 
   render() {
     return html`
-      <div class="image-section">
-        <picture class="picture">
-          <source srcset="${tabledImage}" media="(min-width: 768px)" />
-          <img class="image" src="${mobileImage}" alt="" />
-        </picture>
-        <img class="circle" src="pattern-circle.svg" aria-hidden="true" />
-      </div>
-      <portfolio-container>
+      <picture class="image-section">
+        <source srcset="${tabledImage}" media="(min-width: 768px)" />
+        <img class="image" src="${mobileImage}" alt="" />
+      </picture>
+      <div>
         <div class="text-section">
           <h2 class="title">
             <portfolio-text variant="title-large"
@@ -37,7 +34,19 @@ export class PorfolioHero extends LitElement {
             </a>
           </portfolio-button>
         </div>
-      </portfolio-container>
+        <img
+          class="pattern pattern--circle"
+          src="pattern-circle.svg"
+          draggable="false"
+          aria-hidden="true"
+        />
+        <img
+          class="pattern pattern--rings"
+          src="pattern-rings.svg"
+          draggable="false"
+          aria-hidden="true"
+        />
+      </div>
     `;
   }
 }

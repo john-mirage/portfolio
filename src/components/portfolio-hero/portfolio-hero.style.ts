@@ -1,24 +1,9 @@
 import { css } from "lit";
 
 const styles = css`
-  :host {
-    background-image: url("pattern-rings.svg");
-    background-position: top 150px left -350px;
-    background-repeat: no-repeat;
-    overflow: hidden;
-  }
-
   .image-section {
     position: relative;
-  }
-
-  .circle {
-    position: absolute;
-    right: -80px;
-    bottom: 0;
-  }
-
-  .picture {
+    z-index: 20;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -51,24 +36,40 @@ const styles = css`
     color: var(--color-grey);
   }
 
+  .pattern {
+    position: absolute;
+  }
+
+  .pattern--circle {
+    z-index: 100;
+    right: -80px;
+    top: 254px;
+  }
+
+  .pattern--rings {
+    z-index: 10;
+    top: 150px;
+    left: -350px;
+  }
+
   @media screen and (min-width: 768px) {
-    .container {
+    :host {
       display: flex;
       flex-direction: row;
-      align-items: stretch;
+      align-items: flex-end;
     }
 
-    .picture {
-      position: relative;
-      z-index: 10;
+    .image-section {
+      margin-right: -16px;
       order: 2;
       flex: 0 0 322px;
-      max-width: 322px;
+      width: 322px;
+      max-width: none;
     }
 
     .text-section {
       position: relative;
-      z-index: 20;
+      z-index: 30;
       order: 1;
       flex: 1;
       text-align: left;
@@ -85,6 +86,14 @@ const styles = css`
     .subtitle {
       margin-bottom: 32px;
       max-width: none;
+    }
+
+    .pattern--circle {
+      top: 471px;
+    }
+
+    .pattern--rings {
+      top: 86px;
     }
   }
 `;

@@ -17,6 +17,8 @@ const styles = css`
     top: 0;
     left: 0;
     width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .hero {

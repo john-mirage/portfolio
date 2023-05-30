@@ -5,6 +5,7 @@ const styles = css`
     background-image: url("pattern-rings.svg");
     background-repeat: no-repeat;
     background-position: bottom 87px left -350px;
+    border-bottom: 1px solid var(--color-white);
   }
 
   .text-section {
@@ -29,11 +30,13 @@ const styles = css`
   }
 
   .form {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    max-width: 445px;
     padding-bottom: 87px;
-    border-bottom: 1px solid var(--color-white);
   }
 
   .inputs {

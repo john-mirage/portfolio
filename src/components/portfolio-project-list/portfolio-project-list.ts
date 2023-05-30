@@ -21,80 +21,78 @@ export class PorfolioProjectList extends LitElement {
 
   render() {
     return html`
-      <portfolio-container>
-        <div class="row">
-          <h2 class="title">
-            <portfolio-text variant="title-large">Projects</portfolio-text>
-          </h2>
-          <portfolio-button>
-            <a href="#">
-              <portfolio-text variant="label-large">contact me</portfolio-text>
-            </a>
-          </portfolio-button>
-        </div>
-        <ul class="list">
-          <li>
-            <portfolio-project
-              name="age calculator app"
-              tags="html, css"
-              smallImageUrl="${mobileImage1}"
-              largeImageUrl="${desktopImage1}"
-              projectUrl="https://www.frontendmentor.io/home"
-              codeUrl="https://www.frontendmentor.io/home"
-            ></portfolio-project>
-          </li>
-          <li>
-            <portfolio-project
-              name="age calculator app"
-              tags="html, css"
-              smallImageUrl="${mobileImage2}"
-              largeImageUrl="${desktopImage2}"
-              projectUrl="https://www.frontendmentor.io/home"
-              codeUrl="https://www.frontendmentor.io/home"
-            ></portfolio-project>
-          </li>
-          <li>
-            <portfolio-project
-              name="age calculator app"
-              tags="html, css"
-              smallImageUrl="${mobileImage3}"
-              largeImageUrl="${desktopImage3}"
-              projectUrl="https://www.frontendmentor.io/home"
-              codeUrl="https://www.frontendmentor.io/home"
-            ></portfolio-project>
-          </li>
-          <li>
-            <portfolio-project
-              name="age calculator app"
-              tags="html, css"
-              smallImageUrl="${mobileImage4}"
-              largeImageUrl="${desktopImage4}"
-              projectUrl="https://www.frontendmentor.io/home"
-              codeUrl="https://www.frontendmentor.io/home"
-            ></portfolio-project>
-          </li>
-          <li>
-            <portfolio-project
-              name="age calculator app"
-              tags="html, css"
-              smallImageUrl="${mobileImage5}"
-              largeImageUrl="${desktopImage5}"
-              projectUrl="https://www.frontendmentor.io/home"
-              codeUrl="https://www.frontendmentor.io/home"
-            ></portfolio-project>
-          </li>
-          <li>
-            <portfolio-project
-              name="age calculator app"
-              tags="html, css"
-              smallImageUrl="${mobileImage6}"
-              largeImageUrl="${desktopImage6}"
-              projectUrl="https://www.frontendmentor.io/home"
-              codeUrl="https://www.frontendmentor.io/home"
-            ></portfolio-project>
-          </li>
-        </ul>
-      </portfolio-container>
+      <div class="row">
+        <h2 class="title">
+          <portfolio-text variant="title-large">Projects</portfolio-text>
+        </h2>
+        <portfolio-button>
+          <a href="#">
+            <portfolio-text variant="label-large">contact me</portfolio-text>
+          </a>
+        </portfolio-button>
+      </div>
+      <ul class="list">
+        <li>
+          <portfolio-project
+            name="age calculator app"
+            tags="html, css"
+            smallImageUrl="${mobileImage1}"
+            largeImageUrl="${desktopImage1}"
+            projectUrl="https://www.frontendmentor.io/home"
+            codeUrl="https://www.frontendmentor.io/home"
+          ></portfolio-project>
+        </li>
+        <li>
+          <portfolio-project
+            name="age calculator app"
+            tags="html, css"
+            smallImageUrl="${mobileImage2}"
+            largeImageUrl="${desktopImage2}"
+            projectUrl="https://www.frontendmentor.io/home"
+            codeUrl="https://www.frontendmentor.io/home"
+          ></portfolio-project>
+        </li>
+        <li>
+          <portfolio-project
+            name="age calculator app"
+            tags="html, css"
+            smallImageUrl="${mobileImage3}"
+            largeImageUrl="${desktopImage3}"
+            projectUrl="https://www.frontendmentor.io/home"
+            codeUrl="https://www.frontendmentor.io/home"
+          ></portfolio-project>
+        </li>
+        <li>
+          <portfolio-project
+            name="age calculator app"
+            tags="html, css"
+            smallImageUrl="${mobileImage4}"
+            largeImageUrl="${desktopImage4}"
+            projectUrl="https://www.frontendmentor.io/home"
+            codeUrl="https://www.frontendmentor.io/home"
+          ></portfolio-project>
+        </li>
+        <li>
+          <portfolio-project
+            name="age calculator app"
+            tags="html, css"
+            smallImageUrl="${mobileImage5}"
+            largeImageUrl="${desktopImage5}"
+            projectUrl="https://www.frontendmentor.io/home"
+            codeUrl="https://www.frontendmentor.io/home"
+          ></portfolio-project>
+        </li>
+        <li>
+          <portfolio-project
+            name="age calculator app"
+            tags="html, css"
+            smallImageUrl="${mobileImage6}"
+            largeImageUrl="${desktopImage6}"
+            projectUrl="https://www.frontendmentor.io/home"
+            codeUrl="https://www.frontendmentor.io/home"
+          ></portfolio-project>
+        </li>
+      </ul>
     `;
   }
 }
