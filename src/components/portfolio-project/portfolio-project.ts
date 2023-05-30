@@ -32,7 +32,7 @@ export class PorfolioProject extends LitElement {
         <img class="image" src="${this.largeImageUrl}" alt="${this.name}" />
       </picture>
       <h3 class="name">
-        <portfolio-text variant="title-small">${this.name}</portfolio-text>
+        <portfolio-text variant="title-very-small">${this.name}</portfolio-text>
       </h3>
       <ul class="tag-list">
         ${this.tags &&

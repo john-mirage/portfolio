@@ -22,6 +22,13 @@ const styles = css`
     letter-spacing: -1px;
   }
 
+  :host([variant="title-very-small"]) {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0;
+  }
+
   :host([variant="title-small"]) {
     font-size: 24px;
     font-weight: 700;
@@ -52,11 +59,34 @@ const styles = css`
       letter-spacing: -2.05px;
     }
 
+    :host([variant="title-medium"]) {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 56px;
+      letter-spacing: -1.5px;
+    }
+
+    :host([variant="title-small"]) {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -0.44px;
+    }
+
     :host([variant="body-large"]) {
       font-size: 18px;
       font-weight: 500;
       line-height: 28px;
       letter-spacing: 0;
+    }
+  }
+
+  @media screen and (min-width: 1174px) {
+    :host([variant="title-large"]) {
+      font-size: 88px;
+      font-weight: 700;
+      line-height: 88px;
+      letter-spacing: -2.5px;
     }
   }
 `;

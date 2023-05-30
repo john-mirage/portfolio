@@ -80,7 +80,7 @@ const styles = css`
 
     .image-section {
       margin-left: 0;
-      margin-right: -16px;
+      margin-right: -32px;
       order: 2;
       flex: 0 0 322px;
       width: 322px;

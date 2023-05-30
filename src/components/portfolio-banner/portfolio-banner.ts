@@ -10,7 +10,7 @@ export class PorfolioBanner extends LitElement {
   render() {
     return html`
       <h1 class="title">
-        <portfolio-text variant="title-medium">adamkeyes</portfolio-text>
+        <portfolio-text variant="title-small">adamkeyes</portfolio-text>
       </h1>
       <ul class="list">
         <li>

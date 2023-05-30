@@ -34,7 +34,7 @@ export class PorfolioProjectList extends LitElement {
       <ul class="list">
         <li>
           <portfolio-project
-            name="age calculator app"
+            name="Design portfolio"
             tags="html, css"
             smallImageUrl="${mobileImage1}"
             largeImageUrl="${desktopImage1}"
@@ -44,7 +44,7 @@ export class PorfolioProjectList extends LitElement {
         </li>
         <li>
           <portfolio-project
-            name="age calculator app"
+            name="e-learning landing page"
             tags="html, css"
             smallImageUrl="${mobileImage2}"
             largeImageUrl="${desktopImage2}"
@@ -54,7 +54,7 @@ export class PorfolioProjectList extends LitElement {
         </li>
         <li>
           <portfolio-project
-            name="age calculator app"
+            name="todo web app"
             tags="html, css, javascript"
             smallImageUrl="${mobileImage3}"
             largeImageUrl="${desktopImage3}"
@@ -64,7 +64,7 @@ export class PorfolioProjectList extends LitElement {
         </li>
         <li>
           <portfolio-project
-            name="age calculator app"
+            name="entertainment web app"
             tags="html, css, javascript"
             smallImageUrl="${mobileImage4}"
             largeImageUrl="${desktopImage4}"
@@ -74,7 +74,7 @@ export class PorfolioProjectList extends LitElement {
         </li>
         <li>
           <portfolio-project
-            name="age calculator app"
+            name="memory game"
             tags="html, css, javascript"
             smallImageUrl="${mobileImage5}"
             largeImageUrl="${desktopImage5}"
@@ -84,7 +84,7 @@ export class PorfolioProjectList extends LitElement {
         </li>
         <li>
           <portfolio-project
-            name="age calculator app"
+            name="art gallery showcase"
             tags="html, css, javascript"
             smallImageUrl="${mobileImage6}"
             largeImageUrl="${desktopImage6}"

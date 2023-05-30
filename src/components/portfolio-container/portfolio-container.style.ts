@@ -17,6 +17,8 @@ const styles = css`
   @media screen and (min-width: 768px) {
     div {
       max-width: 768px;
+      padding-left: 32px;
+      padding-right: 32px;
     }
   }
 
