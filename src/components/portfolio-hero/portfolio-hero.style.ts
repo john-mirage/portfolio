@@ -1,12 +1,16 @@
 import { css } from "lit";
 
 const styles = css`
+  :host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .image-section {
     position: relative;
     z-index: 20;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
     max-width: 174px;
   }
@@ -21,6 +25,7 @@ const styles = css`
     flex-direction: column;
     align-items: center;
     text-align: center;
+    max-width: 445px;
   }
 
   .title {
@@ -69,12 +74,12 @@ const styles = css`
 
   @media screen and (min-width: 768px) {
     :host {
-      display: flex;
       flex-direction: row;
       align-items: flex-end;
     }
 
     .image-section {
+      margin-left: 0;
       margin-right: -16px;
       order: 2;
       flex: 0 0 322px;
@@ -90,6 +95,7 @@ const styles = css`
       text-align: left;
       justify-content: flex-end;
       align-items: flex-start;
+      max-width: none;
     }
 
     .title {
