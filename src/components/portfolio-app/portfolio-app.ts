@@ -10,11 +10,17 @@ export class PorfolioApp extends LitElement {
   render() {
     return html`
       <portfolio-container class="body-section">
-        <portfolio-banner class="header"></portfolio-banner>
-        <portfolio-hero class="hero"></portfolio-hero>
-        <portfolio-skill-list class="skill-list"></portfolio-skill-list>
-        <portfolio-project-list class="project-list"></portfolio-project-list>
-        <portfolio-banner class="footer"></portfolio-banner>
+        <header class="header">
+          <portfolio-banner></portfolio-banner>
+        </header>
+        <main>
+          <portfolio-hero class="hero"></portfolio-hero>
+          <portfolio-skill-list class="skill-list"></portfolio-skill-list>
+          <portfolio-project-list class="project-list"></portfolio-project-list>
+        </main>
+        <footer class="footer">
+          <portfolio-banner></portfolio-banner>
+        </footer>
       </portfolio-container>
     `;
   }

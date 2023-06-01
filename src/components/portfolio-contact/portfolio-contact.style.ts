@@ -3,11 +3,14 @@ import { css } from "lit";
 const styles = css`
   :host {
     position: relative;
+    padding-bottom: 87px;
+    border-bottom: 1px solid var(--color-white);
+  }
+
+  .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 87px;
-    border-bottom: 1px solid var(--color-white);
   }
 
   .text-section {
@@ -81,7 +84,7 @@ const styles = css`
   }
 
   @media screen and (min-width: 1174px) {
-    :host {
+    .container {
       flex-direction: row;
       justify-content: space-between;
       align-items: flex-start;

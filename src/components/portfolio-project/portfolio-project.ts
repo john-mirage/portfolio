@@ -24,33 +24,39 @@ export class PorfolioProject extends LitElement {
 
   render() {
     return html`
-      <img class="image" src="${this.imageUrl}" alt="${this.name}" />
-      <h3 class="name">
-        <portfolio-text variant="title-very-small">${this.name}</portfolio-text>
-      </h3>
-      <ul class="tag-list">
-        ${this.tags &&
-        this.tags.split(", ").map(
-          (tag) =>
-            html`
-              <li>
-                <portfolio-text variant="body-large">${tag}</portfolio-text>
-              </li>
-            `
-        )}
-      </ul>
-      <div class="button-section">
-        <portfolio-button>
-          <a href="${this.projectUrl}">
-            <portfolio-text variant="label-large">view project</portfolio-text>
-          </a>
-        </portfolio-button>
-        <portfolio-button>
-          <a href="${this.codeUrl}">
-            <portfolio-text variant="label-large">view code</portfolio-text>
-          </a>
-        </portfolio-button>
-      </div>
+      <article>
+        <img class="image" src="${this.imageUrl}" alt="${this.name}" />
+        <h3 class="name">
+          <portfolio-text variant="title-very-small"
+            >${this.name}</portfolio-text
+          >
+        </h3>
+        <ul class="tag-list">
+          ${this.tags &&
+          this.tags.split(", ").map(
+            (tag) =>
+              html`
+                <li>
+                  <portfolio-text variant="body-large">${tag}</portfolio-text>
+                </li>
+              `
+          )}
+        </ul>
+        <div class="button-section">
+          <portfolio-button>
+            <a href="${this.projectUrl}">
+              <portfolio-text variant="label-large"
+                >view project</portfolio-text
+              >
+            </a>
+          </portfolio-button>
+          <portfolio-button>
+            <a href="${this.codeUrl}">
+              <portfolio-text variant="label-large">view code</portfolio-text>
+            </a>
+          </portfolio-button>
+        </div>
+      </article>
     `;
   }
 }

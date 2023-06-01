@@ -10,7 +10,7 @@ export class PorfolioHero extends LitElement {
   render() {
     return html`
       <div class="text-section">
-        <h2 class="title">
+        <h1 class="title">
           <portfolio-text variant="title-large"
             >Nice to meet you! I'm
             <span class="name"
@@ -18,7 +18,7 @@ export class PorfolioHero extends LitElement {
               ><span class="name__line"></span></span
             >.</portfolio-text
           >
-        </h2>
+        </h1>
         <p class="subtitle">
           <portfolio-text variant="body-large"
             >Based in France, I’m a front-end developer passionate about

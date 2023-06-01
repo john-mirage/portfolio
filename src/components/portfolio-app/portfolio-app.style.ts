@@ -32,10 +32,6 @@ const styles = css`
     margin-bottom: 80px;
   }
 
-  .project-list {
-    margin-top: 64px;
-  }
-
   .footer {
     margin-top: 48px;
     margin-bottom: 48px;
