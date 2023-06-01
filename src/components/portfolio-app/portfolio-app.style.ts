@@ -7,6 +7,12 @@ const styles = css`
     --color-dark-grey: hsl(0, 0%, 14%);
     --color-grey: hsl(0, 0%, 85%);
     --color-white: hsl(0, 0%, 100%);
+    --color-html: #fdba74;
+    --color-css: #93c5fd;
+    --color-javascript: #fde047;
+    --color-accessibility: #6ee7b7;
+    --color-react: #5eead4;
+    --color-sass: #f9a8d4;
 
     background-color: var(--color-black);
   }

@@ -37,15 +37,15 @@ const styles = css`
   }
 
   .tag-html {
-    color: #fdba74;
+    color: var(--color-html);
   }
 
   .tag-css {
-    color: #93c5fd;
+    color: var(--color-css);
   }
 
   .tag-javascript {
-    color: #fde047;
+    color: var(--color-javascript);
   }
 
   .button-section {

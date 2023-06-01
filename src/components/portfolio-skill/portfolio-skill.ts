@@ -11,15 +11,18 @@ export class PorfolioSkill extends LitElement {
   topic: string;
 
   @property({ type: String, reflect: true })
-  skill: string;
+  experience: string;
 
   render() {
     return html`
-      <h3 class="text text--white">
+      <h3 class="text text--${this.topic}">
         <portfolio-text variant="title-medium">${this.topic}</portfolio-text>
       </h3>
       <p class="text text--grey">
-        <portfolio-text variant="body-large">${this.skill}</portfolio-text>
+        <portfolio-text variant="body-large"
+          >${this.experience} Year${this.experience === "1" ? "" : "s"}
+          Experience</portfolio-text
+        >
       </p>
     `;
   }
