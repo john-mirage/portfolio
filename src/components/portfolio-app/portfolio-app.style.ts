@@ -28,8 +28,8 @@ const styles = css`
     z-index: 10;
   }
 
-  .skill-list {
-    margin-bottom: 80px;
+  .project-list {
+    margin-top: 64px;
   }
 
   .footer {

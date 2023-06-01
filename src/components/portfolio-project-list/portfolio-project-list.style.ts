@@ -25,6 +25,12 @@ const styles = css`
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
+
+  @media screen and (min-width: 1174px) {
+    .list {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
 `;
 
 export default styles;

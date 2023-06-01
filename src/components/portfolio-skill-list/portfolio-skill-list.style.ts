@@ -19,22 +19,22 @@ const styles = css`
     border-top: 1px solid var(--color-white);
     border-bottom: 1px solid var(--color-white);
     display: grid;
-    gap: 24px;
+    gap: 40px;
     list-style: none;
   }
 
   @media screen and (min-width: 768px) {
     .list {
       grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 52px 8px;
-      border-bottom: none;
+      gap: 52px 40px;
     }
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1174px) {
     .list {
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 58px 30px;
+      gap: 58px 40px;
+      padding: 80px 0 80px 0;
     }
   }
 `;

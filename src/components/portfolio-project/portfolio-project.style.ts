@@ -44,7 +44,7 @@ const styles = css`
     gap: 30px;
   }
 
-  @media screen and (min-width: 1110px) {
+  @media screen and (min-width: 1174px) {
     .button-section {
       position: absolute;
       z-index: 100;
