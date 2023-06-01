@@ -5,19 +5,7 @@ const styles = css`
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .image-section {
-    position: relative;
-    z-index: 20;
-    display: block;
-    width: 100%;
-    max-width: 174px;
-  }
-
-  .image {
-    width: 100%;
-    max-width: 100%;
+    padding-top: 128px;
   }
 
   .text-section {
@@ -38,10 +26,6 @@ const styles = css`
 
   .name {
     position: relative;
-  }
-
-  .name {
-    position: relative;
     z-index: 20;
     display: inline-block;
   }
@@ -56,35 +40,18 @@ const styles = css`
     background-color: var(--color-green);
   }
 
-  .pattern {
+  .rings {
     position: absolute;
-  }
-
-  .pattern--circle {
-    z-index: 100;
-    right: -80px;
-    top: 254px;
-  }
-
-  .pattern--rings {
     z-index: 10;
-    top: 150px;
-    left: -350px;
+    top: 128px;
+    right: 50%;
+    transform: translateX(50%);
   }
 
   @media screen and (min-width: 768px) {
     :host {
       flex-direction: row;
       align-items: flex-end;
-    }
-
-    .image-section {
-      margin-left: 0;
-      margin-right: -32px;
-      order: 2;
-      flex: 0 0 322px;
-      width: 322px;
-      max-width: none;
     }
 
     .text-section {
@@ -99,14 +66,11 @@ const styles = css`
     }
 
     .title {
-      margin-right: -32px;
       margin-bottom: 60px;
-      max-width: none;
     }
 
     .subtitle {
-      margin-bottom: 32px;
-      max-width: none;
+      max-width: 445px;
     }
 
     .name__line {
@@ -114,12 +78,10 @@ const styles = css`
       height: 6px;
     }
 
-    .pattern--circle {
-      top: 471px;
-    }
-
-    .pattern--rings {
-      top: 86px;
+    .rings {
+      top: 292px;
+      right: -324px;
+      transform: none;
     }
   }
 
@@ -128,33 +90,9 @@ const styles = css`
       align-items: center;
     }
 
-    .image-section {
-      margin-right: 0;
-      flex: 0 0 445px;
-      width: 445px;
-      height: 720px;
-    }
-
-    .text-section {
-      margin-right: -41px;
-    }
-
-    .subtitle {
-      max-width: 445px;
-    }
-
-    .image {
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .pattern--circle {
-      top: 521px;
-      right: 381px;
-    }
-
-    .pattern--rings {
-      top: 133px;
+    .rings {
+      top: 364px;
+      right: 0;
     }
   }
 `;

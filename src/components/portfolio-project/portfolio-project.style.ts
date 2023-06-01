@@ -5,23 +5,14 @@ const styles = css`
     position: relative;
   }
 
-  .image-section {
+  .image {
     margin-bottom: 20px;
     position: relative;
     z-index: 10;
     display: block;
     width: 100%;
-    aspect-ratio: 16/9;
-  }
-
-  .image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
     max-width: 100%;
+    aspect-ratio: 4/3;
     object-fit: cover;
   }
 
@@ -60,7 +51,7 @@ const styles = css`
       top: 0;
       left: 0;
       width: 100%;
-      aspect-ratio: 16/9;
+      aspect-ratio: 4/3;
       display: flex;
       flex-direction: column;
       justify-content: center;

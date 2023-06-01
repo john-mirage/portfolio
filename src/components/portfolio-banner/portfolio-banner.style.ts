@@ -5,7 +5,6 @@ const styles = css`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
   }
 
   .title {
@@ -28,17 +27,10 @@ const styles = css`
     :host {
       flex-direction: row;
       justify-content: space-between;
-      padding-top: 30px;
     }
 
     .title {
       margin-bottom: 0;
-    }
-  }
-
-  @media screen and (min-width: 1110px) {
-    :host {
-      padding-top: 40px;
     }
   }
 `;

@@ -13,37 +13,37 @@ export class PorfolioSkillList extends LitElement {
         <li>
           <portfolio-skill
             topic="HTML"
-            skill="4 Years Experience"
+            skill="2 Years Experience"
           ></portfolio-skill>
         </li>
         <li>
           <portfolio-skill
             topic="CSS"
-            skill="4 Years Experience"
+            skill="2 Years Experience"
           ></portfolio-skill>
         </li>
         <li>
           <portfolio-skill
             topic="Javascript"
-            skill="4 Years Experience"
+            skill="1 Years Experience"
           ></portfolio-skill>
         </li>
         <li>
           <portfolio-skill
             topic="Accessibility"
-            skill="4 Years Experience"
+            skill="1 Years Experience"
           ></portfolio-skill>
         </li>
         <li>
           <portfolio-skill
             topic="React"
-            skill="3 Years Experience"
+            skill="1 Years Experience"
           ></portfolio-skill>
         </li>
         <li>
           <portfolio-skill
             topic="Sass"
-            skill="3 Years Experience"
+            skill="1 Years Experience"
           ></portfolio-skill>
         </li>
       </ul>

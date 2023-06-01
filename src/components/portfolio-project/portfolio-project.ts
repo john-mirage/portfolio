@@ -14,10 +14,7 @@ export class PorfolioProject extends LitElement {
   tags: string;
 
   @property({ type: String, reflect: true })
-  smallImageUrl: string;
-
-  @property({ type: String, reflect: true })
-  largeImageUrl: string;
+  imageUrl: string;
 
   @property({ type: String, reflect: true })
   projectUrl: string;
@@ -27,10 +24,7 @@ export class PorfolioProject extends LitElement {
 
   render() {
     return html`
-      <picture class="image-section">
-        <source srcset="${this.largeImageUrl}" media="(min-width: 768px)" />
-        <img class="image" src="${this.largeImageUrl}" alt="${this.name}" />
-      </picture>
+      <img class="image" src="${this.imageUrl}" alt="${this.name}" />
       <h3 class="name">
         <portfolio-text variant="title-very-small">${this.name}</portfolio-text>
       </h3>

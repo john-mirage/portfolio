@@ -1,12 +1,6 @@
 import { LitElement, html } from "lit";
 import { customElement } from "lit/decorators.js";
 import styles from "./portfolio-project-list.style";
-import mobileImage1 from "../../images/thumbnail-project-1-small.webp";
-import mobileImage2 from "../../images/thumbnail-project-2-small.webp";
-import mobileImage3 from "../../images/thumbnail-project-3-small.webp";
-import mobileImage4 from "../../images/thumbnail-project-4-small.webp";
-import mobileImage5 from "../../images/thumbnail-project-5-small.webp";
-import mobileImage6 from "../../images/thumbnail-project-6-small.webp";
 import desktopImage1 from "../../images/thumbnail-project-1-large.webp";
 import desktopImage2 from "../../images/thumbnail-project-2-large.webp";
 import desktopImage3 from "../../images/thumbnail-project-3-large.webp";
@@ -21,75 +15,62 @@ export class PorfolioProjectList extends LitElement {
 
   render() {
     return html`
-      <div class="row">
-        <h2 class="title">
-          <portfolio-text variant="title-large">Projects</portfolio-text>
-        </h2>
-        <portfolio-button>
-          <a href="#contact">
-            <portfolio-text variant="label-large">contact me</portfolio-text>
-          </a>
-        </portfolio-button>
-      </div>
+      <h2 class="title">
+        <portfolio-text variant="title-large">Projects</portfolio-text>
+      </h2>
       <ul class="list">
         <li>
           <portfolio-project
-            name="Design portfolio"
-            tags="html, css"
-            smallImageUrl="${mobileImage1}"
-            largeImageUrl="${desktopImage1}"
-            projectUrl="https://www.frontendmentor.io/home"
-            codeUrl="https://www.frontendmentor.io/home"
-          ></portfolio-project>
-        </li>
-        <li>
-          <portfolio-project
-            name="e-learning landing page"
-            tags="html, css"
-            smallImageUrl="${mobileImage2}"
-            largeImageUrl="${desktopImage2}"
-            projectUrl="https://www.frontendmentor.io/home"
-            codeUrl="https://www.frontendmentor.io/home"
-          ></portfolio-project>
-        </li>
-        <li>
-          <portfolio-project
-            name="todo web app"
+            name="Newsletter sign-up form with success message"
             tags="html, css, javascript"
-            smallImageUrl="${mobileImage3}"
-            largeImageUrl="${desktopImage3}"
-            projectUrl="https://www.frontendmentor.io/home"
-            codeUrl="https://www.frontendmentor.io/home"
+            imageUrl="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/zimchyd6aujs5y4h5wxd.jpg"
+            projectUrl="https://john-mirage-fm-newsletter-sign-up-form.vercel.app/"
+            codeUrl="https://github.com/john-mirage/frontend-mentor/tree/main/apps/newsletter-sign-up-form"
           ></portfolio-project>
         </li>
         <li>
           <portfolio-project
-            name="entertainment web app"
+            name="Age calculator app"
             tags="html, css, javascript"
-            smallImageUrl="${mobileImage4}"
-            largeImageUrl="${desktopImage4}"
-            projectUrl="https://www.frontendmentor.io/home"
-            codeUrl="https://www.frontendmentor.io/home"
+            imageUrl="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/mwjogovjjnkz6f6yzdkp.jpg"
+            projectUrl="https://john-mirage-fm-age-calculator-app.vercel.app/"
+            codeUrl="https://github.com/john-mirage/frontend-mentor/tree/main/apps/age-calculator-app"
           ></portfolio-project>
         </li>
         <li>
           <portfolio-project
-            name="memory game"
+            name="Results summary component"
             tags="html, css, javascript"
-            smallImageUrl="${mobileImage5}"
-            largeImageUrl="${desktopImage5}"
-            projectUrl="https://www.frontendmentor.io/home"
-            codeUrl="https://www.frontendmentor.io/home"
+            imageUrl="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/b03akozsxsouireonkkd.jpg"
+            projectUrl="https://john-mirage-fm-results-summary-components.vercel.app/"
+            codeUrl="https://github.com/john-mirage/fm-results-summary-components"
           ></portfolio-project>
         </li>
         <li>
           <portfolio-project
-            name="art gallery showcase"
+            name="Ping single column coming soon page"
             tags="html, css, javascript"
-            smallImageUrl="${mobileImage6}"
-            largeImageUrl="${desktopImage6}"
-            projectUrl="https://www.frontendmentor.io/home"
-            codeUrl="https://www.frontendmentor.io/home"
+            imageUrl="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/qjiprcu1e19yvujjrflv.jpg"
+            projectUrl="https://john-mirage-fm-ping-coming-soon-page.vercel.app/"
+            codeUrl="https://github.com/john-mirage/fm-ping-coming-soon-page"
+          ></portfolio-project>
+        </li>
+        <li>
+          <portfolio-project
+            name="News homepage"
+            tags="html, css, javascript"
+            imageUrl="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/abbzt6kmkawmpbj7evxx.jpg"
+            projectUrl="https://john-mirage-fm-news-homepage.vercel.app/"
+            codeUrl="https://github.com/john-mirage/fm-news-homepage"
+          ></portfolio-project>
+        </li>
+        <li>
+          <portfolio-project
+            name="Meet landing page"
+            tags="html, css, javascript"
+            imageUrl="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/edwlbe4gedvld6yqyazw.jpg"
+            projectUrl="https://john-mirage-fm-meet-landing-page.vercel.app/"
+            codeUrl="https://github.com/john-mirage/fm-meet-landing-page"
           ></portfolio-project>
         </li>
       </ul>

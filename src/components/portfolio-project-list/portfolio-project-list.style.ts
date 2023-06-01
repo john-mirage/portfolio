@@ -1,13 +1,14 @@
 import { css } from "lit";
 
 const styles = css`
-  .row {
-    margin-bottom: 40px;
+  :host {
+    padding-bottom: 48px;
+    border-bottom: 1px solid var(--color-white);
   }
 
   .title {
     margin-top: 0;
-    margin-bottom: 16px;
+    margin-bottom: 40px;
     color: var(--color-white);
   }
 
@@ -16,19 +17,7 @@ const styles = css`
     display: grid;
     gap: 40px;
     padding: 0;
-  }
-
-  @media screen and (min-width: 375px) {
-    .row {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .title {
-      margin-bottom: 0;
-    }
+    list-style: none;
   }
 
   @media screen and (min-width: 768px) {

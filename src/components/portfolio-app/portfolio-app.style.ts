@@ -12,6 +12,7 @@ const styles = css`
   }
 
   .header {
+    margin-top: 20px;
     position: absolute;
     z-index: 100;
     top: 0;
@@ -32,29 +33,19 @@ const styles = css`
   }
 
   .project-list {
-    margin-bottom: 80px;
+    margin-top: 64px;
   }
 
-  .contact {
-    margin-bottom: 20px;
-  }
-
-  .footer-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: var(--color-dark-grey);
+  .footer {
+    margin-top: 48px;
+    margin-bottom: 48px;
   }
 
   @media screen and (min-width: 768px) {
     .header {
+      margin-top: 30px;
       padding-left: 32px;
       padding-right: 32px;
-    }
-  }
-
-  @media screen and (min-width: 1174px) {
-    .header {
-      padding-right: 64px;
     }
   }
 `;

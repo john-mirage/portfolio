@@ -23,8 +23,8 @@ export class PorfolioContact extends LitElement {
       </div>
       <form class="form-section">
         <portfolio-text class="inputs" variant="body-large">
-          <input class="input" type="text" placeholder="name" />
-          <input class="input" type="email" placeholder="email" />
+          <input class="input" required type="text" placeholder="name" />
+          <input class="input" required type="email" placeholder="email" />
           <textarea
             class="input"
             cols="30"

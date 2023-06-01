@@ -13,9 +13,12 @@ export class PorfolioIconLink extends LitElement {
   @property({ type: String, reflect: true })
   url: string;
 
+  @property({ type: String, reflect: true })
+  label: string;
+
   render() {
     return html`
-      <a href="${this.url}">
+      <a href="${this.url}" aria-label="${this.label}">
         <portfolio-icon icon="${this.icon}"></portfolio-icon>
       </a>
     `;
