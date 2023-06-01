@@ -36,7 +36,7 @@ export class PorfolioProject extends LitElement {
           this.tags.split(", ").map(
             (tag) =>
               html`
-                <li>
+                <li class="tag-${tag}">
                   <portfolio-text variant="body-large">${tag}</portfolio-text>
                 </li>
               `

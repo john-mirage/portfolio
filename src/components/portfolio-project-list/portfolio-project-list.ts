@@ -16,7 +16,7 @@ export class PorfolioProjectList extends LitElement {
         <ul class="list">
           <li>
             <portfolio-project
-              name="Newsletter sign-up form with success message"
+              name="Newsletter sign-up form"
               tags="html, css, javascript"
               imageUrl="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/zimchyd6aujs5y4h5wxd.jpg"
               projectUrl="https://john-mirage-fm-newsletter-sign-up-form.vercel.app/"

@@ -36,6 +36,18 @@ const styles = css`
     text-transform: uppercase;
   }
 
+  .tag-html {
+    color: #fdba74;
+  }
+
+  .tag-css {
+    color: #93c5fd;
+  }
+
+  .tag-javascript {
+    color: #fde047;
+  }
+
   .button-section {
     display: flex;
     flex-direction: row;
@@ -56,7 +68,7 @@ const styles = css`
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 48px;
+      gap: 24px;
       background-color: hsla(0, 0%, 0%, 75%);
       opacity: 0;
       transition-property: opacity;
