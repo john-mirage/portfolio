@@ -2,6 +2,7 @@ import { LitElement, html } from "lit";
 import { customElement } from "lit/decorators.js";
 import styles from "./portfolio-project-list.style";
 import globalStyles from "../../styles/globals";
+import projects from "../../data/projects";
 
 @customElement("portfolio-project-list")
 export class PorfolioProjectList extends LitElement {
@@ -14,60 +15,18 @@ export class PorfolioProjectList extends LitElement {
           <portfolio-text variant="title-large">Projects</portfolio-text>
         </h2>
         <ul class="list">
-          <li>
-            <portfolio-project
-              name="Newsletter sign-up form"
-              tags="html, css, javascript"
-              imageUrl="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/zimchyd6aujs5y4h5wxd.jpg"
-              projectUrl="https://john-mirage-fm-newsletter-sign-up-form.vercel.app/"
-              codeUrl="https://github.com/john-mirage/frontend-mentor/tree/main/apps/newsletter-sign-up-form"
-            ></portfolio-project>
-          </li>
-          <li>
-            <portfolio-project
-              name="Age calculator app"
-              tags="html, css, javascript"
-              imageUrl="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/mwjogovjjnkz6f6yzdkp.jpg"
-              projectUrl="https://john-mirage-fm-age-calculator-app.vercel.app/"
-              codeUrl="https://github.com/john-mirage/frontend-mentor/tree/main/apps/age-calculator-app"
-            ></portfolio-project>
-          </li>
-          <li>
-            <portfolio-project
-              name="Results summary component"
-              tags="html, css, javascript"
-              imageUrl="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/b03akozsxsouireonkkd.jpg"
-              projectUrl="https://john-mirage-fm-results-summary-components.vercel.app/"
-              codeUrl="https://github.com/john-mirage/fm-results-summary-components"
-            ></portfolio-project>
-          </li>
-          <li>
-            <portfolio-project
-              name="Ping single column coming soon page"
-              tags="html, css, javascript"
-              imageUrl="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/qjiprcu1e19yvujjrflv.jpg"
-              projectUrl="https://john-mirage-fm-ping-coming-soon-page.vercel.app/"
-              codeUrl="https://github.com/john-mirage/fm-ping-coming-soon-page"
-            ></portfolio-project>
-          </li>
-          <li>
-            <portfolio-project
-              name="News homepage"
-              tags="html, css, javascript"
-              imageUrl="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/abbzt6kmkawmpbj7evxx.jpg"
-              projectUrl="https://john-mirage-fm-news-homepage.vercel.app/"
-              codeUrl="https://github.com/john-mirage/fm-news-homepage"
-            ></portfolio-project>
-          </li>
-          <li>
-            <portfolio-project
-              name="Meet landing page"
-              tags="html, css, javascript"
-              imageUrl="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_475/Challenges/edwlbe4gedvld6yqyazw.jpg"
-              projectUrl="https://john-mirage-fm-meet-landing-page.vercel.app/"
-              codeUrl="https://github.com/john-mirage/fm-meet-landing-page"
-            ></portfolio-project>
-          </li>
+          ${projects.map(
+            (project) =>
+              html`
+                <portfolio-project
+                  name="${project.name}"
+                  tags="${project.tags}"
+                  imageUrl="${project.imageUrl}"
+                  projectUrl="${project.projectUrl}"
+                  codeUrl="${project.codeUrl}"
+                ></portfolio-project>
+              `
+          )}
         </ul>
       </section>
     `;
