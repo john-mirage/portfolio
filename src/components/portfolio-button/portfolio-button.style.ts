@@ -1,40 +1,28 @@
 import { css } from "lit";
 
 const styles = css`
-  :host {
+  .button {
     position: relative;
+    display: block;
+    padding-bottom: 10px;
+    text-decoration: none;
     color: var(--color-white);
     transition: color 150ms;
   }
 
-  :host(:hover) {
-    color: var(--color-green);
-  }
-
-  ::slotted(a) {
-    display: block;
-    padding-bottom: 10px;
-    text-decoration: none;
-    color: inherit;
-  }
-
-  ::slotted(button) {
-    margin: 0;
-    display: block;
-    padding: 0 0 10px 0;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    color: inherit;
-  }
-
-  span {
+  .button__line {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 2px;
     background-color: var(--color-green);
+  }
+
+  @media screen and (hover: hover) {
+    .button:hover {
+      color: var(--color-green);
+    }
   }
 `;
 

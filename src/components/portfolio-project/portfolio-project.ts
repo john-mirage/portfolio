@@ -43,18 +43,14 @@ export class PorfolioProject extends LitElement {
           )}
         </ul>
         <div class="button-section">
-          <portfolio-button>
-            <a href="${this.projectUrl}">
-              <portfolio-text variant="label-large"
-                >view project</portfolio-text
-              >
-            </a>
-          </portfolio-button>
-          <portfolio-button>
-            <a href="${this.codeUrl}">
-              <portfolio-text variant="label-large">view code</portfolio-text>
-            </a>
-          </portfolio-button>
+          <portfolio-button
+            label="view project"
+            href="${this.projectUrl}"
+          ></portfolio-button>
+          <portfolio-button
+            label="view code"
+            href="${this.codeUrl}"
+          ></portfolio-button>
         </div>
       </article>
     `;
