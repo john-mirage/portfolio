@@ -35,6 +35,7 @@ import orderSummaryComponent from "../images/order-summary-component.webp";
 import testimonialsGridSection from "../images/testimonials-grid-section.webp";
 import huddleLandingPageWithASingleIntroductorySection from "../images/huddle-landing-page-with-a-single-introductory-section.webp";
 import launchCountdownTimer from "../images/launch-countdown-timer.webp";
+import bodyMassIndexCalculator from "../images/body-mass-index-calculator.webp";
 
 const projects = [
   {
@@ -52,6 +53,14 @@ const projects = [
       "https://github.com/john-mirage/ocr-reservia/raw/main/public/social-media.png",
     projectUrl: "https://john-mirage-ocr-reservia.vercel.app/",
     codeUrl: "https://github.com/john-mirage/ocr-reservia",
+  },
+  {
+    name: "Body Mass Index calculator",
+    tags: "html, css, javascript",
+    imageUrl: bodyMassIndexCalculator,
+    projectUrl: "https://john-mirage-fm-body-mass-index-calculator.vercel.app/",
+    codeUrl:
+      "https://github.com/john-mirage/frontend-mentor/tree/main/apps/bmi-calculator",
   },
   {
     name: "Newsletter sign-up form",
