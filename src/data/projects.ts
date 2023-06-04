@@ -36,6 +36,7 @@ import testimonialsGridSection from "../images/testimonials-grid-section.webp";
 import huddleLandingPageWithASingleIntroductorySection from "../images/huddle-landing-page-with-a-single-introductory-section.webp";
 import launchCountdownTimer from "../images/launch-countdown-timer.webp";
 import bodyMassIndexCalculator from "../images/body-mass-index-calculator.webp";
+import EasybankLandingPage from "../images/easybank-landing-page.webp";
 
 const projects = [
   {
@@ -53,6 +54,13 @@ const projects = [
       "https://github.com/john-mirage/ocr-reservia/raw/main/public/social-media.png",
     projectUrl: "https://john-mirage-ocr-reservia.vercel.app/",
     codeUrl: "https://github.com/john-mirage/ocr-reservia",
+  },
+  {
+    name: "Easybank landing page",
+    tags: "html, css, javascript",
+    imageUrl: EasybankLandingPage,
+    projectUrl: "https://john-mirage-fm-easybank-landing-page.vercel.app/",
+    codeUrl: "https://github.com/john-mirage/fm-easybank-landing-page",
   },
   {
     name: "Body Mass Index calculator",
