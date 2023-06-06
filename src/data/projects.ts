@@ -37,6 +37,7 @@ import huddleLandingPageWithASingleIntroductorySection from "../images/huddle-la
 import launchCountdownTimer from "../images/launch-countdown-timer.webp";
 import bodyMassIndexCalculator from "../images/body-mass-index-calculator.webp";
 import EasybankLandingPage from "../images/easybank-landing-page.webp";
+import socialProofSection from "../images/social-proof-section.webp";
 
 const projects = [
   {
@@ -54,6 +55,13 @@ const projects = [
       "https://github.com/john-mirage/ocr-reservia/raw/main/public/social-media.png",
     projectUrl: "https://john-mirage-ocr-reservia.vercel.app/",
     codeUrl: "https://github.com/john-mirage/ocr-reservia",
+  },
+  {
+    name: "Social proof section",
+    tags: "html, css, javascript",
+    imageUrl: socialProofSection,
+    projectUrl: "https://john-mirage-fm-social-proof-section.vercel.app/",
+    codeUrl: "https://github.com/john-mirage/fm-social-proof-section",
   },
   {
     name: "Easybank landing page",
