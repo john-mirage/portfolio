@@ -14,15 +14,15 @@ export class PorfolioHero extends LitElement {
           <portfolio-text variant="title-large"
             >Nice to meet you! I'm
             <span class="name"
-              ><span class="name__value">John Mirage</span
+              ><span class="name__value">Antoni Pisaneschi</span
               ><span class="name__line"></span></span
-            >.</portfolio-text
-          >
+          ></portfolio-text>
         </h1>
         <p class="subtitle">
           <portfolio-text variant="body-large"
-            >Based in France, I’m a front-end developer passionate about
-            building accessible web apps that users love.</portfolio-text
+            >Based in France, I would like to be a web developer. I am
+            passionate about building accessible web apps that users
+            love.</portfolio-text
           >
         </p>
       </div>
