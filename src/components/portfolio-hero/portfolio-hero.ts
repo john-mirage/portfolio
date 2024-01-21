@@ -20,7 +20,7 @@ export class PorfolioHero extends LitElement {
         </h1>
         <p class="subtitle">
           <portfolio-text variant="body-large"
-            >Based in France, I would like to be a web developer. I am
+            >Based in France, I am
             passionate about building accessible web apps that users
             love.</portfolio-text
           >
